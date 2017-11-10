@@ -1,0 +1,8 @@
+
+<ul>
+  <ng-container *ngFor="let post of posts">
+    <li>
+      <a [routerLink]="[post.id]">Post {{post.id}}</a>
+    </li>
+  </ng-container>
+</ul>

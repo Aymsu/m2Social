@@ -1,0 +1,16 @@
+
+
+<div *ngIf="post">
+
+    <h1>Post {{postInput.id}} écrit par {{user.firstName}} {{user.lastName}}</h1>
+
+    <img *ngIf="post.img" [src]="[postInput.img]">
+
+    <p>{{postInput.content}}</p>
+
+
+</div>
+
+
+
+<!--app-comment [postToComment]="postId"></app-comment-->
